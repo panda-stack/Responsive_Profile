@@ -1,0 +1,103 @@
+.photo {
+    display: inline;
+    position: absolute;
+    top: 20px;
+    right: 95px;
+    width: 210px;
+    height: 40px;
+}
+
+.photoimg {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.photoimg img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.photoname {
+    width: 160px;
+    height: 40px;
+    position: absolute;
+    left: 33px;
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.photoname p {
+    padding: 0px;
+    margin: 6px;
+    font-size: 17px;
+    font-family: myfont-light;
+}
+
+@media only screen and (max-width:700px) {
+    /* For mobile phones: */
+    .photo {
+      display: inline;
+      position: absolute;
+      top: 20px;
+      left: 30px;
+      width: 210px;
+      height: 55px;
+  }
+  
+  .photoimg {
+      border-radius: 50%;
+      width: 55px;
+      height: 55px;
+  }
+  
+  .photoimg img {
+      border-radius: 50%;
+      width: 100%;
+      height: 100%;
+  }
+  
+  .photoname {
+      width: 160px;
+      height: 55px;
+      position: absolute;
+      left: 60px;
+      top: 0px;
+      margin: 0px;
+      padding: 0px;
+  }
+  
+  .photoname p {
+      padding: 0px;
+      margin: 10px;
+      font-size: 20px;
+      font-family: myfont-light;
+  }
+}
+
+  @font-face {
+    font-family: myfont-black;
+    src: url("../fonts/wigrum-black.otf");
+  }
+    
+  @font-face {
+    font-family: myfont-bold;
+    src: url("../fonts/wigrum-bold.otf");
+  }
+    
+  @font-face {
+    font-family: myfont-light;
+    src: url("../fonts/wigrum-light.otf");
+  }
+    
+  @font-face {
+    font-family: myfont-medium;
+    src: url("../fonts/wigrum-medium.otf");
+  }
+    
+  @font-face {
+    font-family: myfont;
+    src: url("../fonts/wigrum.otf");
+  }

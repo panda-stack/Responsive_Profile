@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: scroll;
+  font-family: myfont;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  font-family: myfont-black;
+  src: url("../fonts/wigrum-black.otf");
+}
+
+@font-face {
+  font-family: myfont-bold;
+  src: url("../fonts/wigrum-bold.otf");
+}
+
+@font-face {
+  font-family: myfont-light;
+  src: url("../fonts/wigrum-light.otf");
+}
+
+@font-face {
+  font-family: myfont-medium;
+  src: url("../fonts/wigrum-medium.otf");
+}
+
+@font-face {
+  font-family: myfont;
+  src: url("../fonts/wigrum.otf");
+}

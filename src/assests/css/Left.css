@@ -1,0 +1,138 @@
+.Left {
+  text-align: center;
+  width: 50%;
+  height: 100%;
+  background-color: #F2C4A3;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  /* font-size: calc(10px + 2vmin); */  
+  color: black;
+  float:left;
+}
+
+.lefttitle {
+  text-align: center;
+  width: 350px;
+  position: absolute;
+  top: 13%;
+  font-family: myfont-light;
+  /* font-size: 36px; */
+  font-size: calc(20px + 2vmin);  
+}
+
+.circlelogo {
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  height: 280px;
+  width: 280px;
+  top: 36%;
+  justify-content: center;
+  text-align: center;
+  /* z-index: 5; */
+}
+
+.circlelogo img {
+  height: 60%;
+  width: 60%;
+  top: 20%;
+  position: absolute;
+  left: 20%;
+}
+
+.Pattern {
+  width: 50%;
+  height: 60%;
+  top: 20%;
+  left: 0%;
+  position: absolute;
+}
+
+.Pattern img {
+  width: 100%;
+  height: 100%;
+}
+
+.leftbtn button {
+  background-color: #F2C4A3;
+  width: 100%;
+  height: 100%;
+  border-color: black;
+  font-family: myfont-light;
+  font-size: 15px;
+}
+
+.leftbtn button:hover {
+  background-color: #CD845C;
+}
+
+.leftbtn {
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  bottom: 23%;
+}
+
+@font-face {
+  font-family: myfont-black;
+  src: url("../fonts/wigrum-black.otf");
+}
+  
+@font-face {
+  font-family: myfont-bold;
+  src: url("../fonts/wigrum-bold.otf");
+}
+  
+@font-face {
+  font-family: myfont-light;
+  src: url("../fonts/wigrum-light.otf");
+}
+  
+@font-face {
+  font-family: myfont-medium;
+  src: url("../fonts/wigrum-medium.otf");
+}
+  
+@font-face {
+  font-family: myfont;
+  src: url("../fonts/wigrum.otf");
+}
+
+@media only screen and (max-width:700px) {
+  /* For mobile phones: */
+  .Left {
+    width:100%;
+  }
+  .leftbtn {
+    width: 400px;
+    height: 75px;
+    bottom: 10%;
+  }
+  .leftbtn button {    
+    font-size: 35px;
+  }
+  .circlelogo {
+    height: 350px;
+    width: 350px;
+    top: 37%;
+  }
+  .lefttitle {
+    text-align: center;
+    width: 88%;
+    position: absolute;
+    top: 8%;
+    font-family: myfont-light;
+    /* font-size: 50px; */
+    font-size: calc(35px + 3vmin); 
+  }
+  .Pattern {
+    width: 120%;
+    height: 60%;
+    top: 24%;
+    left: -10%;
+    position: absolute;
+  }
+}
